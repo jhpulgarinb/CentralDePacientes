@@ -54,7 +54,7 @@ public class PanelExtension extends JPanel implements ActionListener {
     /**
      * Comando Opción 5
      */
-    private static final String OPCION_5 = "OPCION_5";
+    //private static final String OPCION_5 = "OPCION_5";
 
     // -----------------------------------------------------------------
     // Atributos
@@ -184,10 +184,8 @@ public class PanelExtension extends JPanel implements ActionListener {
         else if (OPCION_4.equals(e.getActionCommand())) {
             principal.reqFuncOpcion3();
         }
-        else if (OPCION_5.equals(e.getActionCommand())) {
-            principal.reqFuncOpcion5();
+        //else if (OPCION_5.equals(e.getActionCommand())) {
+        //    principal.reqFuncOpcion5();
         }
 
     }
-
-}
